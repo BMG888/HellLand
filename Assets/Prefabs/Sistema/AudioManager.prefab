@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2241429438760506312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2241429438760506310}
+  - component: {fileID: 2241429438760506311}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2241429438760506310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2241429438760506312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2241429438760506311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2241429438760506312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd6fbfb8b1b0f0459ef14869aefcdd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saltar1: {fileID: 8300000, guid: eefe733218abf8e49aac57a9bbf15d9f, type: 3}
+  saltar2: {fileID: 8300000, guid: 281c4e305f88d0241ab2032a2ca21c66, type: 3}
+  impulso: {fileID: 8300000, guid: 88cf5c50243b18a4795108c9d780e756, type: 3}
+  aterrizar: {fileID: 8300000, guid: e6aa6242ba7d94443bbe4daa6c1b0c8d, type: 3}
+  caminar1: {fileID: 8300000, guid: ec081f22b7473de40bc3a21b5b15fefa, type: 3}
+  caminar2: {fileID: 8300000, guid: 1698f3a6b35874e46853ab4fc80f8cfd, type: 3}
+  disparo: {fileID: 8300000, guid: 418a95a2c158be345a67767f04169246, type: 3}
+  herido: {fileID: 8300000, guid: 5b9dbef015782304783c192c307474ed, type: 3}
+  curar: {fileID: 8300000, guid: bc5e3cec689295e40a09fe5b866778f0, type: 3}
+  recargar: {fileID: 8300000, guid: 96bbcb5dc1109ec4fa01caf3473dc2ab, type: 3}
+  objetoLore: {fileID: 8300000, guid: 0479684c13218f04db8557038b2f3d48, type: 3}
+  metal: {fileID: 8300000, guid: 3b7ae20ccc21b4c4ead98254048b9bfc, type: 3}
+  totem: {fileID: 8300000, guid: 06ada5590eba8d6489b36c6f3c54ff78, type: 3}
+  pocion: {fileID: 8300000, guid: 134264bfe4621a24a850fb5a29af70a5, type: 3}
+  balas: {fileID: 8300000, guid: 4ee1b4f8f6baffd499da2dc6492e28ab, type: 3}
+  porton: {fileID: 8300000, guid: 070779cdcfbe3ff4688691fb33bc3e4e, type: 3}
+  interruptor: {fileID: 8300000, guid: ab297b593498a6e47ba84de770477cbe, type: 3}
+  descomprimir: {fileID: 8300000, guid: abc0d78eb39ddc7429a7042b7ce83d87, type: 3}
+  llave: {fileID: 8300000, guid: 4bdc533d342b3f34488d8aa779116a02, type: 3}
+  puertaElectrica: {fileID: 8300000, guid: eea5606f764734840bfcc954217680b1, type: 3}
+  targeta: {fileID: 8300000, guid: a58e438b7cfa445498120af0e6169082, type: 3}
+  srp1: {fileID: 8300000, guid: f08f5112c0953b145993013b7f4060ab, type: 3}
+  srp2: {fileID: 8300000, guid: c97b338c008fcec42947ddbc8f47deb9, type: 3}
+  srmuerte: {fileID: 8300000, guid: 75c4fd5d104284147b39dcad295f1761, type: 3}
+  tomarPocion: {fileID: 8300000, guid: ca8e0daf31e4369419a64dbda8832932, type: 3}
+  mejorar: {fileID: 8300000, guid: 1d052dc403214b443a1fedda361c1161, type: 3}
+  denegado: {fileID: 8300000, guid: 964d0c89ebbb61a40aca255a8d547661, type: 3}
+  aceptar: {fileID: 8300000, guid: 269ce77c2f146ad48a1e5ea7c6977e81, type: 3}
+  bgNivel1: {fileID: 8300000, guid: f1e04eb148cd2ec48a256c18fff398a8, type: 3}
+  bgNivel2: {fileID: 8300000, guid: 0ba6ef1638d3a4bea93b34bbef0a123c, type: 3}
+  objetoAudio: {fileID: 1682891201203905734, guid: d870a059f5760ea4c9d7abb4a3c60ba1, type: 3}
+  amSFX: {fileID: 5187450100734853609, guid: 8275a540b20808c4bb9022d1cc976c5a, type: 2}
+  amMusica: {fileID: 1894936799456823478, guid: 8275a540b20808c4bb9022d1cc976c5a, type: 2}
+  objetoReproduciendo: {fileID: 0}
+  reproduciendoSFX: 0
